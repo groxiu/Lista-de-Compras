@@ -95,4 +95,14 @@ img{
     .list_item{
         width: 60%;
     }
+    .card{
+        width: 90%;
+    }
+    h1{
+        font-size: 56px;
+    }
+    p{
+        font-size: 14px;
+    }
 }
+
