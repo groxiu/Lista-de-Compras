@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: #6482AD;
+    font-family: "Varela Round", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.title{
+    margin-top: 3em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+p{
+    color: #F5EDED;
+    font-weight: 300;
+    text-shadow: 2px 2px 5px rgb(97, 97, 97)
+}
+h1{
+    text-align: center;
+    color: #F5EDED;
+    font-size: 7em;
+    font-weight: 700;
+    margin: 0 0 1em 0 ;
+    text-shadow: 2px 2px 5px rgb(97, 97, 97)
+}
+.card{
+    text-align: center;
+    background-color: #F5EDED;
+    min-height: 500px;
+    height: fit-content;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+
+}
+h2{
+    margin-top: 1em;
+    color: #6482AD;
+    font-size: 2em;
+    font-weight: 700;
+}
+label{
+   margin-top: 0.7em;
+    display: flex;
+    justify-content: center;
+   
+}
+input{
+    border: 1px solid black;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+    width: 40%;
+    padding: 1em 0 1em 0.5em;
+    
+}
+button{
+    border: none;
+    background-color: #6482AD;
+    border-radius: 0 10px 10px 0;
+}
+img{
+    width: 90%;
+}
+.lista{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+}
+.list_item{
+    overflow: hidden;
+    overflow-wrap: break-word;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F5EDED;
+    background-color: #6482AD;
+    padding: 0.5em 1em 0.5em 2em;
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media(max-width: 1200px ){
+    .list_item{
+        width: 60%;
+    }
+}
