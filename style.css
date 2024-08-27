@@ -56,7 +56,7 @@ label{
 input{
     border: 1px solid black;
     outline: none;
-    font-size: 17px
+    font-size: 17px;
     border-radius: 10px 0 0 10px;
     width: 40%;
     padding: 1em 0 1em 0.5em;
