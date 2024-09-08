@@ -4,28 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de compras</title>
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="title">
-        <p>Está pensando em ir ao mercado? Faça agora mesmo a sua</p>
+        <p class="texto-titulo">Está pensando em ir ao mercado? Faça agora mesmo a sua</p>
         <h1>Lista de Compras</h1>
     </div>
     
     <div class="card">
         <h2>Adicionar item a sua lista</h2>
-        <label for="Adicionar">
-            <input type="text" name="Adicionar" id="Adicionar" placeholder="Adicionar item" class="formulario" autocomplete="off" required>
-            <button class="add_compra">
-                <img src="/img/add.png" alt="">
-            </button>
-        </label>
-        <ul class="lista">
+        <form action="" class="formulario">    
+            <div class="formulario-flex">
+                <input type="text" name="Adicionar" id="Adicionar" placeholder="Adicionar item" class="input-item" autocomplete="off" autofocus>
+                <input type="number" name="valor" id="valor" class="input-valor"  placeholder="Valor do item">
+            </div>
+            
 
+           
+            <button class="add_compra" type="submit">Enviar</button>
+        </form>
+        
+           
+        <ul class="lista">
+            <!--<li class="list_item">
+                <div class="valor-nome">
+                    <p class="item-nome">Arrox</p>
+                    <p class="item-preco">2,00</p>
+                </div>
+                <button class="dell-compra" >
+                    <img src="/img/dell.png" class="img" alt="">
+                </button>
+                
+            </li>-->
         </ul>
-       
+        <hr>
+        <h2 class="valor-total"></h2>
     </div>
+   
+
 
     <script src="script.js"></script>
 </body>
