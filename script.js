@@ -102,6 +102,7 @@ formulario.addEventListener('submit', (event) => {
     if (itemNome.value === '' || itemValor.value === '') {
         alert('Preencha os campos corretamente');
         event.preventDefault();
+        return;
     }
 
     if (itemValor.value < 0) {
